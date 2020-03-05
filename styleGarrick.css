@@ -1,6 +1,5 @@
 html {
-    background-color: #9ed0e6;
-    font-family: 'Roboto', sans-serif;
+    background-color: #333333;
 }
 body {
     margin: 0 auto;
@@ -8,7 +7,7 @@ body {
     margin-bottom: 30px;
     width: 80%;
     min-width: 700px;
-    background: #ba97ac;
+    background: #666A86;
     border: 2px solid #73777B;
     padding: 2px 10px;
     border-radius: 20px;
@@ -23,22 +22,22 @@ section {
 nav li {
     display: inline-block;
     text-align: center;
-    background-color: #82a7a6;
-    border: 2px solid #73777B;
+    background-color: #73777B;
+    border: 2px solid #333333;
     padding: 5px;
     border-radius: 10px;
 }
 nav a:link {
-    color: #80f;
+    color: #B4464F;
 }
 nav a:visited {
-    color: #80f;
+    color: #B4464F;
 }
 nav a:hover {
-    color: #a3a;
+    color: #B4464F;
 }
 nav a:active {
-    color: #000;
+    color: #B4464F;
 }
 footer {
     margin: 5px 10px;
@@ -47,7 +46,6 @@ footer {
     clear: both;
 }
 h1, h2 {
-    font-family: 'Merriweather', serif;
     color: #B4464F;
 }
 table {
