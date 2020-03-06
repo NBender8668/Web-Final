@@ -4,6 +4,26 @@
 /* #B4464F- english red */
 /* #A0A0D6- blue Bell */
 
+td{
+  background-color: #333333;
+  color: #B4464F;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid black;
+}
+
+#table{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.head{
+  font-size: 14pt;
+}
+
+.tableBody{
+  font-size: 12;
+}
 
 body{
     background-color: #666A86;
@@ -31,6 +51,10 @@ nav li{
 	margin: 10px;
 	padding: 10px;
 
+}
+
+.button {
+  text-align: center;
 }
 #navList{
     text-align: center;
