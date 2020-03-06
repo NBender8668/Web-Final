@@ -13,6 +13,7 @@ td{
   border: 2px solid black;
 }
 
+
 #table{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -59,7 +60,9 @@ nav li{
 
 .button {
   text-align: center;
+  user-select: none;
 }
+
 #navList{
     text-align: center;
 }
@@ -176,3 +179,11 @@ nav a:visited{
       .slideImg{
           width: 100%;
       }
+
+      
+#prod{
+  text-align: center;
+  border: 2px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 42px;
+}
