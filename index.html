@@ -1,29 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
 <body>
     <header>
-        <h1>Home</h1>
-        <nav>
-            <ul>
-                <a href='index.html'><li>Home</li></a>
-                <a href='productSpecs.html'><li>Product Specs</li></a>
-                <a href='aboutUs.html'><li>About Us</li></a>
-                <a href='contactUs.html'><li>Contact Us</li></a>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <p>
+        <h1>Reaper Inc.</h1>
+    <section id="navList" class="nav">
+<nav>
+    
+    <ul>
+    <a href="index.html"><li>Home</li></a>
+    <a href="aboutUs.html"><li>About Us</li></a>
+    <a href="productSpecs.html"><li>Product Features</li></a>
+    <a href="contactUs.html"><li>Contact Us</li></a>
 
-        </p>
+    </ul>
+</nav>
+</header>
+    </section>
+    <section id="slide" class="slide">
+        <div class="slideshow">
+            <div class="slideFade fade">
+                <div class="numbertext">1</div>
+                <img class="slideImg" src="C:\Users\Noah W. Bender\OneDrive\HTML\Web-Final\images\moon.jpg"/>
+            <div class="captionText">Pretty Moon</div>
+            </div>
+            <div class="slideFade fade">
+                <div class="numbertext">2</div>
+                <img class="slideImg" src="C:\Users\Noah W. Bender\OneDrive\HTML\Web-Final\images\Tomb_OverGrown.jpg"/>
+                <div class="captionText"> Woah a Jungle</div>
+            </div>
+            
+            <div class="slideFade fade">
+                <div class="numbertext">3</div>
+                <img class="slideImg" src="C:\Users\Noah W. Bender\OneDrive\HTML\Web-Final\images\ocean.jpg"/>
+                <div class="captionText">Cool Ocean</div>
+            </div>
+            
+            <a class="previous" onclick="plusSlide(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlide(1)">&#10095;</a>
+
+            
+            <br>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+
+            </div>
+           
+        </div>
+
     </section>
     <footer>
         Copyright &copy; 2020 Reaper Inc
     </footer>
+    <script src='C:\Users\Noah W. Bender\OneDrive\HTML\Web-Final\Scripts\script.js'></script>
 </body>
 </html>
