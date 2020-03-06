@@ -43,5 +43,11 @@ var dots = document.getElementsByClassName("dot");
   if (slideIndex > slides.length) {slideIndex = 1;}
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlidesauto, 3000); 
+  setTimeout(showSlidesauto, 5000); 
 }
+
+// var myCanvas = document.getElementById("myCanvas");
+// myCanvas.width = 300;
+// myCanvas.height = 300;
+  
+// var ctx = myCanvas.getContext("2d");
