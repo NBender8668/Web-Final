@@ -3,3 +3,148 @@
 /* #73777B- sonic silver */
 /* #B4464F- english red */
 /* #A0A0D6- blue Bell */
+
+
+body{
+    background-color: #666A86;
+    width: auto;
+    height: auto;
+}
+
+h1{
+    color:#B4464F ;
+    background-color:#333333 ;
+}
+nav li{
+   display: inline-block ;
+   box-shadow: 4px 4px rgb(68, 66, 66);
+    border: 1px black solid;
+    border-radius: 5px;
+    background:#333333;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    list-style-type: none;
+    height: auto;
+    width: 200px;
+	margin: 10px;
+	padding: 10px;
+
+}
+#navList{
+    text-align: center;
+}
+#slide{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   width: 50%;
+   height: auto;
+   background-color:#333333 ;
+   border:2px black;
+   border-style:solid ;
+   position: static;
+}
+nav a:link {
+    color:#B4464F ;
+    display: inline;
+	text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;	
+	padding: 5px 10px;
+}
+nav a:visited{
+    color:#B4464F ;
+    }
+    .dots{
+        text-align: center;
+    }
+    .slideshow{
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    .slideFade{
+        display: none;
+    }
+
+    .previous, .next{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    .next{
+        right: 0;
+  border-radius: 3px 0 0 3px;
+    }
+    .previous:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+      
+      
+      .captionText {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 15px;
+        left: -5px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+     
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+      
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+      .slideImg{
+          width: 100%;
+      }
