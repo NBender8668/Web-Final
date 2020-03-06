@@ -1,5 +1,5 @@
 html {
-    background-color: #333333;
+    background-color: #666A86;
 }
 body {
     margin: 0 auto;
@@ -7,8 +7,9 @@ body {
     margin-bottom: 30px;
     width: 80%;
     min-width: 700px;
-    background: #666A86;
+    background: #333333;
     border: 2px solid #73777B;
+    color: #666A86;
     padding: 2px 10px;
     border-radius: 20px;
 }
@@ -17,13 +18,13 @@ header {
     padding: 5px;
 }
 section {
-    float: right;
+    margin-left: 10px;
 }
 nav li {
     display: inline-block;
     text-align: center;
-    background-color: #73777B;
-    border: 2px solid #333333;
+    background-color: #A0A0D6;
+    border: 2px solid #73777B;
     padding: 5px;
     border-radius: 10px;
 }
