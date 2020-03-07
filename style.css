@@ -1,6 +1,6 @@
 /* #666A86 - blueish */
 /* #333333 - jet */
-/* #73777B- sonic silver */
+
 /* #B4464F- english red */
 /* #A0A0D6- blue Bell */
 
@@ -15,7 +15,25 @@ td{
 
 #table{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ width: 50%;
+ 
+ 
+ 
+ position: static;
+  
 }
+#myCanvas{
+    background-color: #333333;
+    border: 2px black solid;
+}
+#graph{
+     background-color: #666A86;
+   
+}
+
 
 .head{
   font-size: 14pt;
@@ -46,16 +64,14 @@ h1{
     text-decoration: underline;
 
 }
-#homePara{
-    
-}
+
 nav li{
    display: inline-block ;
    box-shadow: 4px 4px rgb(68, 66, 66);
     border: 1px black solid;
     border-radius: 5px;
     background:#333333;
-    text-align: left;
+    text-align: center;
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: underline;
@@ -65,6 +81,17 @@ nav li{
 	margin: 10px;
 	padding: 10px;
 
+}
+#homePara{
+    color: #666A86;
+    font-size: 18px;
+    text-shadow: 1px 1px rgb(26, 26, 25);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#home{
+    padding: 10px 30px 30px 30px;
+    background-color: #424040;
+    box-shadow: 4px 4px rgb(26, 26, 25);
 }
 
 .button {
@@ -96,6 +123,9 @@ nav a:link {
 }
 nav a:visited{
     color:#B4464F ;
+    }
+    nav li:hover{
+        background-color: #4A4C4F;
     }
     .dots{
         text-align: center;

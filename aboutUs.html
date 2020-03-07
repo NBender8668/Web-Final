@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
 </head>
-<body>
+<body onLoad="draw()">
     <header>
         <h1>About Us</h1>
         <section id="navList" class="nav">
@@ -19,14 +19,18 @@
             
                 </ul>
         </nav>
+        <section id="graph">
+        <canvas id="myCanvas" height="480" width="700" ></canvas></section>
+        </section>
+        <section>
+            <p>We Began in the 1990s as a small start up company.We founded our company in Denver,Colorado and had built our first prototype there and it was to die for. </p>
+            <p>With the on going growth in our product usage we've been able to expanded even more. Soon enough you will be able to take a Iron Maiden home with you!</p>
         </section>
     </header>
-    <section>
-        <canvas id="barCanvas" class="barGraph"></canvas>
-    </section>
+    
     <footer>
         Copyright &copy; 2020 Reaper Inc
     </footer>
-    <script src='Scripts/script.js'></script>
+    <script src='Scripts/barscripts.js'></script>
 </body>
 </html>
