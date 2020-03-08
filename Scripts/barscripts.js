@@ -43,15 +43,15 @@ function draw(){
     ctx.stroke();
     
 
-    ctx.fillStyle = '#00f';
+    ctx.fillStyle = '#0C1E43';
     ctx.fillRect(90,0,250,75);
-    ctx.fillStyle = '#B4464F';
+    ctx.fillStyle = '#6D1720';
     ctx.fillRect(90,80,150,75);
-    ctx.fillStyle = '#A0A0D6';
+    ctx.fillStyle = '#0C1E43';
     ctx.fillRect(90,160,350,75);
-    ctx.fillStyle = '#000';
+    ctx.fillStyle = '#6D1720';
     ctx.fillRect(90,240,220,75);
-    ctx.fillStyle = '#0f0';
+    ctx.fillStyle = '#0C1E43';
     ctx.fillRect(90,320,90,75);
 
   
