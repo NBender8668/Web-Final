@@ -10,5 +10,6 @@ fetch(url)
       })
       .catch(e => console.log(e));
 
-// "https://theysaidso.com/img/qod/qod-inspire.jpg"
+
+
  
