@@ -69,10 +69,13 @@ h1{
     text-shadow: 2px 2px rgb(27, 27, 27);
 }
 #IronMaiden{ 
-    text-shadow: 2px 2px rgb(27, 27, 27);
-    font-size: 30px;
-    color: #B4464F;
+    text-align: center;
     text-decoration: underline;
+    font-size: 30px;
+    padding: 8px;
+    color:#B4464F ;
+    background-color:#333333 ;
+    text-shadow: 2px 2px rgb(27, 27, 27);
 
 }
 
@@ -93,7 +96,7 @@ nav li{
 	padding: 10px;
 
 }
-#homePara{
+.homePara{
     color: #666A86;
     font-size: 18px;
     text-shadow: 1px 1px rgb(26, 26, 25);
@@ -240,10 +243,16 @@ nav a:visited{
   font-size: 42px;
 }    
 .image {
-    margin: 10px;
-    width: 80%;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+    
     min-width: 500px;
-    border: 3px solid #73777B;
+    border: 3px solid black;
 }
 .rounded-corners {
     border-radius: 30px;   
