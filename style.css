@@ -13,6 +13,22 @@ td{
   border: 2px solid black;
 }
 
+.reaper{
+    
+    height: 150px;
+    width: 140px;
+    position: relative;
+    top: 20px;
+    right: -13%;
+    background-color:#333333;
+    border: 5px #717171 outset;
+    padding-top: 0px;
+    padding-left: 500px;
+    padding-bottom: 0px;
+    padding-right: 500px;
+    
+    
+}
 
 #table{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -60,12 +76,15 @@ body{
     height: auto;
 }
 
-h1{
+.mainHeader{
+    position: absolute;
     text-align: center;
     font-size: 60px;
-    padding: 20px;
+    top: 90px;
+    right: 40%;
+    
     color:#B4464F ;
-    background-color:#333333 ;
+   
     text-shadow: 2px 2px rgb(27, 27, 27);
 }
 #IronMaiden{ 
