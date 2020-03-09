@@ -91,6 +91,7 @@ body{
     text-align: center;
     text-decoration: underline;
     font-size: 30px;
+    border: 2px #717171 inset;
     padding: 8px;
     color:#B4464F ;
     background-color:#333333 ;
@@ -295,6 +296,7 @@ nav a:visited{
 .contactheader{
     text-align: center;
     text-decoration: underline;
+    border: 2px #717171 inset;
     font-size: 30px;
     padding: 8px;
     color:#B4464F ;
